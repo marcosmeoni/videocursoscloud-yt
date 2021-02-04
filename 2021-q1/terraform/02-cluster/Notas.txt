@@ -1,0 +1,11 @@
+instalar aws-iam-authenticator
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+
+Configurar cli
+
+aws sts get-caller-identity
+
+
+# listar nodos
+kubectl get nodes --kubeconfig kubeconfig_my-cluster
